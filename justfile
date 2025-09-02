@@ -7,3 +7,6 @@ test:
     uvx mobuild export nbs src
     uv run pytest
 
+publish: test
+    uv build
+    uv publish
