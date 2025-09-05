@@ -24,7 +24,7 @@ download = Kmd("wget https://some.url/download/demo.csv")
 
 Then you can use the variable `download` in another cell to ensure that this dataset is downloaded beforehand. 
 
-```
+```python
 import polars as pl
 
 download
